@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		84A6CB4720F15E6100717F47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB4620F15E6100717F47 /* AppDelegate.m */; };
-		84A6CB4A20F15E6100717F47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB4920F15E6100717F47 /* ViewController.m */; };
 		84A6CB4D20F15E6100717F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB4B20F15E6100717F47 /* Main.storyboard */; };
 		84A6CB4F20F15E6A00717F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB4E20F15E6A00717F47 /* Assets.xcassets */; };
 		84A6CB5220F15E6A00717F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB5020F15E6A00717F47 /* LaunchScreen.storyboard */; };
 		84A6CB5520F15E6A00717F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB5420F15E6A00717F47 /* main.m */; };
+		84A6CB5D20F1621000717F47 /* CHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB5C20F1621000717F47 /* CHTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A6CB4220F15E6100717F47 /* UITableViewController Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6CB4520F15E6100717F47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A6CB4620F15E6100717F47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84A6CB4820F15E6100717F47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84A6CB4920F15E6100717F47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84A6CB4C20F15E6100717F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A6CB4E20F15E6A00717F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A6CB5120F15E6A00717F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A6CB5320F15E6A00717F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A6CB5420F15E6A00717F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A6CB5B20F1621000717F47 /* CHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHTableViewController.h; sourceTree = "<group>"; };
+		84A6CB5C20F1621000717F47 /* CHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				84A6CB4520F15E6100717F47 /* AppDelegate.h */,
 				84A6CB4620F15E6100717F47 /* AppDelegate.m */,
-				84A6CB4820F15E6100717F47 /* ViewController.h */,
-				84A6CB4920F15E6100717F47 /* ViewController.m */,
 				84A6CB4B20F15E6100717F47 /* Main.storyboard */,
+				84A6CB5B20F1621000717F47 /* CHTableViewController.h */,
+				84A6CB5C20F1621000717F47 /* CHTableViewController.m */,
 				84A6CB4E20F15E6A00717F47 /* Assets.xcassets */,
 				84A6CB5020F15E6A00717F47 /* LaunchScreen.storyboard */,
 				84A6CB5320F15E6A00717F47 /* Info.plist */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A6CB4A20F15E6100717F47 /* ViewController.m in Sources */,
 				84A6CB5520F15E6A00717F47 /* main.m in Sources */,
 				84A6CB4720F15E6100717F47 /* AppDelegate.m in Sources */,
+				84A6CB5D20F1621000717F47 /* CHTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

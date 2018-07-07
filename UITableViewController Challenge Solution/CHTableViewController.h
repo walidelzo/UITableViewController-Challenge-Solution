@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CHTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Admin on 7/7/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CHTableViewController : UITableViewController
 
 @end
-
