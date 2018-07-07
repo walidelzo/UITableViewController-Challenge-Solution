@@ -40,9 +40,9 @@
 //#warning Incomplete implementation, return the number of rows
     if (section==0){
         return 2;
-    }else if (section==2){
+    }else if (section==1){
         return 1;
-    }else if (section ==3){
+    }else if (section ==2){
         return 3;
     }
     return 3;
@@ -52,10 +52,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"challengeTable" forIndexPath:indexPath];
     if (indexPath.section == 0){
+        cell.backgroundColor=[UIColor redColor];
         cell.textLabel.text=@"challengeTable";
     }else if (indexPath.section==1){
+        cell.backgroundColor=[UIColor blueColor];
         cell.textLabel.text=@"another section";
     }else if (indexPath.section==2){
+        cell.backgroundColor=[UIColor yellowColor];
         cell.textLabel.text=[NSString stringWithFormat:@"row , %ld",indexPath.row];
     }
     
